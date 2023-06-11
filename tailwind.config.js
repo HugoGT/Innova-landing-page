@@ -4,10 +4,11 @@ module.exports = {
     fontFamily: {
       sans: ["Noto Sans JP", "sans-serif"],
     },
-    content: [
-      `./src/pages/**/*.{js,jsx,ts,tsx}`,
-      `./src/components/**/*.{js,jsx,ts,tsx}`,
-    ],
+    extend: {},
   },
+  content: [
+    "./src/pages/**/*.{js,jsx,ts,tsx}",
+    "./src/components/**/*.{js,jsx,ts,tsx}",
+  ],
   plugins: [],
 };
