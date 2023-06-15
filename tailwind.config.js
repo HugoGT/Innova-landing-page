@@ -4,7 +4,17 @@ module.exports = {
     fontFamily: {
       sans: ["Noto Sans", "Noto Sans JP", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        scroll: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100rem)" },
+        },
+      },
+      animation: {
+        scroll: "scroll 16s linear infinite",
+      },
+    },
   },
   content: [
     "./src/pages/**/*.{js,jsx,ts,tsx}",

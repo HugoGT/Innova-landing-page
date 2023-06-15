@@ -1,5 +1,6 @@
 import React from "react";
 import { About } from "./about";
+import { Clients } from "./clients";
 import { Header } from "./header";
 import { Hero } from "./hero";
 import { Services } from "./services";
@@ -12,6 +13,7 @@ export function Layout() {
         <Hero />
         <Services />
         <About />
+        <Clients />
       </main>
     </>
   );
