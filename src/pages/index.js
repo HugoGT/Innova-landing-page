@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
-import { Layout } from "../components/layout.js";
+import { Layout } from "../components/layout";
 
 export default function index() {
   return (
