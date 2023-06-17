@@ -2,17 +2,12 @@ import React from "react";
 
 export function Hero() {
   return (
-    <section className="relative h-96 overflow-hidden">
-      <img
-        className="-z-10 absolute object-cover w-full top-0 sm:hidden"
-        src="images/fondo_v.jpg"
-        alt="fondo"
-      />
-      <h1 className="absolute text-2xl font-black tracking-wide text-center z-0 py-20">
+    <section className="relative h-[26rem] w-full overflow-hidden bg-gradient-to-r from-p_green-200 to-sky-200">
+      <h1 className="absolute top-1/4 px-4 text-2xl font-black text-center max-w-xl z-0 sm:text-4xl sm:top-[30%] sm:px-12 lg:text-6xl md:">
         INNOVA ARQUITECTOS Y ASOCIADOS
       </h1>
       <img
-        className="absolute z-0 bottom-0 mt-20"
+        className="absolute z-0 bottom-0 sm:right-0"
         src="images/arquitectos.png"
         alt="innova arquitectos"
       />
