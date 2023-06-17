@@ -1,19 +1,19 @@
 import * as React from "react";
-import { Helmet } from "react-helmet";
 import { Layout } from "../components/layout";
+import { About } from "../components/about";
+import { Clients } from "../components/clients";
+import { Header } from "../components/header";
+import { Hero } from "../components/hero";
+import { Services } from "../components/services";
 
 export default function index() {
   return (
-    <>
-      <Helmet>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans:wght@400;700;900&display=swap"
-          rel="stylesheet"
-        />
-      </Helmet>
-      <Layout />
-    </>
+    <Layout title="Innova Arquitectos">
+      <Header />
+      <Hero />
+      <Services />
+      <About />
+      <Clients />
+    </Layout>
   );
 }

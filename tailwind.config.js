@@ -10,7 +10,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Noto Sans", "Noto Sans JP", "sans-serif"],
+        nsans: ["Noto Sans", "Noto Sans JP", "sans-serif"],
       },
       keyframes: {
         scroll: {

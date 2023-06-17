@@ -1,20 +1,11 @@
 import React from "react";
-import { About } from "./about";
-import { Clients } from "./clients";
-import { Header } from "./header";
-import { Hero } from "./hero";
-import { Services } from "./services";
+import { SEO } from "./seo";
 
-export function Layout() {
+export function Layout({ title, children }) {
   return (
     <>
-      <Header />
-      <main className="font-sans">
-        <Hero />
-        <Services />
-        <About />
-        <Clients />
-      </main>
+      <SEO title={title} />
+      <main className="font-nsans">{children}</main>
     </>
   );
 }
