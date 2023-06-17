@@ -7,8 +7,8 @@ export function Card({
 }) {
   return (
     <div className="inline-block h-60 w-48 flex-none transform rounded-lg shadow-md transition overflow-hidden hover:-translate-y-4 hover:shadow-xl">
-      <img className="h-5/6 object-cover w-full" src={img} alt={name} />
-      <span className="h-1/6 block py-2 text-center">
+      <img className="object-cover w-full max-h-48" src={img} alt={name} />
+      <span className="block py-4 text-center">
         <a href={url}>{name}</a>
       </span>
     </div>

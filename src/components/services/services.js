@@ -2,20 +2,32 @@ import React from "react";
 import { Card } from "./card";
 
 const services = [
-  { url: "#", name: "Diseño de Proyectos", img: "svg/presentation.svg" },
-  { url: "#", name: "Gerencia de Proyectos", img: "svg/process.svg" },
   {
-    url: "#",
+    url: "/servicios",
+    name: "Diseño de Proyectos",
+    img: "svg/presentation.svg",
+  },
+  { url: "/servicios", name: "Gerencia de Proyectos", img: "svg/process.svg" },
+  {
+    url: "/servicios",
     name: "Trámites de Licencia de Defensa Civil",
     img: "svg/reunion.svg",
   },
   {
-    url: "#",
+    url: "/servicios",
     name: "Licencias Municipales de Construcción",
     img: "svg/engineers.svg",
   },
-  { url: "#", name: "Declaratioria de Fábrica", img: "svg/progress.svg" },
-  { url: "#", name: "Metrados y Presupuestos", img: "svg/percentages.svg" },
+  {
+    url: "/servicios",
+    name: "Declaratioria de Fábrica",
+    img: "svg/progress.svg",
+  },
+  {
+    url: "/servicios",
+    name: "Metrados y Presupuestos",
+    img: "svg/percentages.svg",
+  },
 ];
 
 export function Services() {
