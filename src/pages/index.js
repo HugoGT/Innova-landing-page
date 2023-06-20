@@ -6,10 +6,17 @@ import { Header } from "../components/header";
 import { Hero } from "../components/hero";
 import { Services } from "../components/services";
 
+const links = [
+  { url: "/servicios", name: "Servicios" },
+  { url: "#about", name: "Nosotros" },
+  { url: "#", name: "Contacto" },
+  { url: "#clientes", name: "Confían en Innova" },
+];
+
 export default function index() {
   return (
     <Layout title="Innova Arquitectos">
-      <Header />
+      <Header main={"#servicios"} links={links} />
       <Hero />
       <Services />
       <About />

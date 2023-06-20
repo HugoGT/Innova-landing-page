@@ -36,7 +36,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services">
+    <section id="servicios">
       <h2 className="block text-2xl font-bold text-center pt-4">
         Nuestros Servicios
       </h2>

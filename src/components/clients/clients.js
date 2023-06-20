@@ -16,7 +16,7 @@ export const Clients = () => {
   ];
 
   return (
-    <div>
+    <div id="clientes">
       <h2 className="block text-2xl font-bold text-center py-4">
         Confían en Innova
       </h2>
