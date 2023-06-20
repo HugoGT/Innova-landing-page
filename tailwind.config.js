@@ -8,6 +8,9 @@ module.exports = {
           100: "#dcf5e8",
           200: "#5ab8a0",
         },
+        custom_blue: {
+          500: "#607CFC",
+        },
       },
       fontFamily: {
         nsans: ["Noto Sans", "Noto Sans JP", "sans-serif"],

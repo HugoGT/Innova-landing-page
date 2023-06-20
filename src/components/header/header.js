@@ -13,7 +13,7 @@ export function Header() {
   return (
     <header className="py-3 px-6 bg-neutral-200 flex justify-between items-center">
       <img
-        src="images/innova-logo.png"
+        src="/images/innova-logo.png"
         alt="logo innova arquitectos"
         className="h-12 px-2 mt-1"
       />
