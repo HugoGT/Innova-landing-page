@@ -41,45 +41,19 @@ export function About() {
           integral de la organización.
         </p>
       </div>
-      <div className="py-6">
-        <h3 className="text-xl font-bold text-center pb-2">Nuestros Valores</h3>
-        <img className="w-2/5" src="svg/goals.svg" alt="Visión" />
-        <ul>
-          <li>
-            <b>Competitividad:</b> El esfuerzo por ser el primero, tomando la
-            meta como el destino al que llegar lo más rápidamente posible.
-          </li>
-          <li>
-            <b>Responsabilidad:</b> Esto significa una mezcla de gratitud,
-            lealtad y sinceridad, que en términos empresariales es sinónimo de
-            compromiso social y comunitario no sólo con la clientela, sino con
-            la sociedad.
-          </li>
-          <li>
-            <b>Integridad:</b> Coherencia entre la palabra y la acción en un
-            sentido de rectitud, probidad y respeto.
-          </li>
-          <li>
-            <b>Liderazgo:</b> Capacidad de orientar el esfuerzo de los grupos
-            humanos en una dirección deseada, promoviendo una visión compartida,
-            estructurándolos, dirigiéndolos, generando oportunidades de
-            crecimiento, inspirando valores de acción y anticipando escenarios
-            de desarrollo.
-          </li>
-          <li>
-            <b>Innovación:</b> Disposición de modificar las formas existentes de
-            hacer las cosas asumiendo con responsabilidad el riesgo de llevarlas
-            a la práctica, buscando obtener ventajas competitivas, la eficiencia
-            de nuestros procesos y el éxito de nuestros resultados.
-          </li>
-          <li>
-            <b>Espíritu de Equipo:</b> Colaborar, cooperar y conjugar esfuerzos
-            con un grupo de personas, a fin de alcanzar objetivos comunes
-            enriqueciendo la experiencia propia con la de otros miembros del
-            grupo, y produciendo un resultado mayor que la suma de los esfuerzos
-            individuales.
-          </li>
-        </ul>
+      <h3 className="text-2xl font-bold text-center pb-2">Nuestros Valores</h3>
+      <div className="pt-6 pb-12 grid grid-rows-6 sm:grid-cols-3 sm:grid-rows-1 justify-items-center max-w-4xl m-auto">
+        <div className="flex flex-wrap row-span-1 gap-4 sm:flex-col justify-evenly sm:text-right">
+          <b>Innovación</b>
+          <b>Integridad</b>
+          <b>Responsabilidad</b>
+        </div>
+        <img className="row-span-4 my-4" src="svg/goals.svg" alt="Visión" />
+        <div className="flex flex-wrap row-span-1 gap-4 sm:flex-col justify-evenly">
+          <b>Liderazgo</b>
+          <b>Competitividad</b>
+          <b>Espíritu de Equipo</b>
+        </div>
       </div>
     </section>
   );

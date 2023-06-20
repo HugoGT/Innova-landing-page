@@ -40,7 +40,7 @@ export function Services() {
       <h2 className="block text-2xl font-bold text-center pt-4">
         Nuestros Servicios
       </h2>
-      <div className="flex h-72 w-auto items-center space-x-4 overflow-x-auto overscroll-x-contain scrollbar-thin scrollbar-track-gray-200 scrollbar-thumb-gray-600 dark:scrollbar-track-gray-600 dark:scrollbar-thumb-gray-400 px-6">
+      <div className="flex h-72 m-auto max-w-7xl items-center space-x-4 overflow-x-auto overscroll-x-contain scrollbar-thin scrollbar-track-gray-200 scrollbar-thumb-gray-600 dark:scrollbar-track-gray-600 dark:scrollbar-thumb-gray-400 px-6">
         {services.map((service) => (
           <Card key={service.url} {...service} />
         ))}
