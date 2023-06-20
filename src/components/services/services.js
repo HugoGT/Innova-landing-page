@@ -5,28 +5,32 @@ const services = [
   {
     url: "/servicios",
     name: "Diseño de Proyectos",
-    img: "svg/presentation.svg",
+    img: "/svg/process.svg",
   },
-  { url: "/servicios", name: "Gerencia de Proyectos", img: "svg/process.svg" },
+  {
+    url: "/servicios",
+    name: "Gerencia de Proyectos",
+    img: "/svg/presentation.svg",
+  },
   {
     url: "/servicios",
     name: "Trámites de Licencia de Defensa Civil",
-    img: "svg/reunion.svg",
+    img: "/svg/reunion.svg",
   },
   {
     url: "/servicios",
     name: "Licencias Municipales de Construcción",
-    img: "svg/engineers.svg",
+    img: "/svg/engineers.svg",
+  },
+  {
+    url: "/servicios",
+    name: "Licencias de Funcionamiento",
+    img: "/svg/progress.svg",
   },
   {
     url: "/servicios",
     name: "Declaratioria de Fábrica",
-    img: "svg/progress.svg",
-  },
-  {
-    url: "/servicios",
-    name: "Metrados y Presupuestos",
-    img: "svg/percentages.svg",
+    img: "/svg/declaration.svg",
   },
 ];
 
