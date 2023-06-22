@@ -19,28 +19,19 @@ export function ServicesInfo() {
         Nuestros servicios
       </p>
       <div className="grid gap-4 p-6 max-w-7xl m-auto sm:grid-cols-2 lg:grid-cols-3 lg:pb-12">
-        <a
-          href="#"
-          className="relative border rounded-lg hover:bg-black hover:opacity-60"
-        >
-          <p className="absolute text-white text-4xl bottom-24 right-24">
-            LO QUIERO!
+        <div className="border border-gray-400 rounded-lg p-4 shadow-md">
+          <img src="/svg/process.svg" alt="Gerencia de proyectos" />
+          <p className="text-lg font-semibold py-2">Diseño de Proyectos</p>
+          <p className="">
+            Diseñamos proyectos en conjunto para tus ambientes deseados,
+            planificando la estructura y criterios de éxito. Desarrollamos
+            varios diseños para elegir el mejor en la ejecución del proyecto.
+            Entregamos planos de arquitectura, seguridad, estructuras,
+            instalaciones eléctricas e instalaciones sanitarias, además de
+            memorias descriptivas, esquemas, detalles 3d y perspectivas que
+            sirven para llevar a cabo la edificación de cualquier construcción.
           </p>
-          <div className="border border-gray-400 rounded-lg p-4 shadow-md">
-            <img src="/svg/process.svg" alt="Gerencia de proyectos" />
-            <p className="text-lg font-semibold py-2">Diseño de Proyectos</p>
-            <p className="">
-              Diseñamos proyectos en conjunto para tus ambientes deseados,
-              planificando la estructura y criterios de éxito. Desarrollamos
-              varios diseños para elegir el mejor en la ejecución del proyecto.
-              Entregamos planos de arquitectura, seguridad, estructuras,
-              instalaciones eléctricas e instalaciones sanitarias, además de
-              memorias descriptivas, esquemas, detalles 3d y perspectivas que
-              sirven para llevar a cabo la edificación de cualquier
-              construcción.
-            </p>
-          </div>
-        </a>
+        </div>
         <div className="border border-gray-400 rounded-lg p-4 shadow-md">
           <img src="/svg/presentation.svg" alt="Gerencia de proyectos" />
           <p className="text-lg font-semibold py-2">Gerencia de Proyectos</p>

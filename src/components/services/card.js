@@ -4,16 +4,15 @@ export function Card({
   url = "#",
   name = "No name",
   img = "/images/innova-logo.png",
+  description = "No description",
 }) {
   return (
-    <a
-      href={url}
-      className="inline-block h-60 p-4 w-48 flex-none transform rounded-lg shadow-md transition overflow-hidden border border-gray-100 hover:-translate-y-4 hover:shadow-xl"
-    >
-      <img className="object-cover w-full max-h-48" src={img} alt={name} />
-      <span className="block py-4 text-center">
-        <p>{name}</p>
-      </span>
+    <a href={url} className="">
+      <div className="border border-gray-400 rounded-lg p-4 shadow-md min-h-[32rem] max-h-[32rem] overflow-y-auto">
+        <img className="object-cover w-full" src={img} alt={name} />
+        <h3 className="block py-4 text-center font-semibold">{name}</h3>
+        <p>{description}</p>
+      </div>
     </a>
   );
 }
