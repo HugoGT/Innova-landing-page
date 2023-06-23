@@ -17,7 +17,7 @@ export const Clients = () => {
 
   return (
     <div id="clientes">
-      <h2 className="block text-2xl font-bold text-center py-4">
+      <h2 className="block text-2xl font-bold text-center py-4 md:text-4xl">
         Confían en Innova
       </h2>
       <Carousel images={images} />

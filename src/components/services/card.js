@@ -8,7 +8,7 @@ export function Card({
 }) {
   return (
     <a href={url} className="">
-      <div className="border border-gray-400 rounded-lg p-6 shadow-md h-[32rem] overflow-y-auto">
+      <div className="border border-gray-400 rounded-lg p-6 shadow-md h-[30rem] overflow-y-auto">
         <div className="flex w-full h-4/5">
           <img
             className="max-h-full m-auto object-contain"

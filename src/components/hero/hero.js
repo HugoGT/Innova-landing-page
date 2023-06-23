@@ -2,7 +2,7 @@ import React from "react";
 
 export function Hero() {
   return (
-    <section className="h-[26rem] w-full flex flex-col items-center justify-evenly overflow-hidden sm:h-[32rem] lg:flex-row lg:justify-between bg-gradient-to-br from-p_green-200 to-sky-200">
+    <section className="h-[26rem] w-full flex flex-col items-center justify-evenly overflow-hidden sm:h-[32rem] lg:flex-row lg:justify-between bg-gradient-to-br from-p_green-200 to-60% to-sky-100">
       <h1 className="my-auto p-6 text-3xl font-black text-center sm:text-5xl lg:text-6xl lg:mx-16 lg:text-left lg:max-w-screen-md">
         INNOVA ARQUITECTOS Y ASOCIADOS
       </h1>

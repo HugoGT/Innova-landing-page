@@ -25,7 +25,7 @@ const services = [
   },
   {
     url: "/servicios",
-    name: "LICENCIAS MUNICIPALES DE CONSTRUCCIÓN",
+    name: "LICENCIAS DE CONSTRUCCIÓN",
     img: "/svg/engineers.svg",
     description:
       "Utilizaremos todos nuestros conocimientos y estrategias para llevar a cabo la planeación, ejecución y monitoreo de su proyecto, utilizando el método Lean Construction o Construcción sin Pérdidas cumpliendo las metas deseadas.",
@@ -49,10 +49,10 @@ const services = [
 export function Services() {
   return (
     <section id="servicios">
-      <h2 className="block text-2xl font-bold text-center pt-4">
+      <h2 className="block text-2xl font-bold text-center pt-4 md:text-4xl md:py-12">
         Nuestros Servicios
       </h2>
-      <div className="grid gap-4 p-6 max-w-7xl m-auto sm:grid-cols-2 lg:grid-cols-3 lg:pb-12">
+      <div className="grid gap-4 px-6 max-w-7xl m-auto sm:grid-cols-2 lg:grid-cols-3 lg:pb-8">
         {services.map((service) => (
           <Card key={service.url} {...service} />
         ))}
