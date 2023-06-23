@@ -3,42 +3,42 @@ import { Card } from "./card";
 
 const services = [
   {
-    url: "#",
+    url: "/servicios",
     name: "DISEÑO DE PROYECTOS",
     img: "/svg/process.svg",
     description:
       "Diseñamos proyectos en conjunto para tus ambientes deseados, planificando la estructura y criterios de éxito. Desarrollamos varios diseños para elegir el mejor en la ejecución del proyecto. Entregamos planos de arquitectura, seguridad, estructuras, instalaciones eléctri memorias descriptivas, esquemas, detalles 3d y perspectivas que sirven para llevar a cabo la edificación de cualquier construcción.",
   },
   {
-    url: "#",
+    url: "/servicios",
     name: "GERENCIA DE PROYECTOS",
     img: "/svg/presentation.svg",
     description:
       "Utilizaremos todos nuestros conocimientos y estrategias para llevar a cabo la planeación, ejecución y monitoreo de su proyecto, utilizando el método Lean Construction o Construcción sin Pérdidas, cumpliendo las metas deseadas.",
   },
   {
-    url: "#",
+    url: "/servicios",
     name: "TRÁMITES DE INDECI",
     img: "/svg/reunion.svg",
     description:
       "Utilizaremos todos nuestros conocimientos y estrategias para llevar a cabo la planeación, ejecución y monitoreo de su proyecto, utilizando el método Lean Construction o Construcción sin Pérdidas cumpliendo las metas deseadas.",
   },
   {
-    url: "#",
+    url: "/servicios",
     name: "LICENCIAS MUNICIPALES DE CONSTRUCCIÓN",
     img: "/svg/engineers.svg",
     description:
       "Utilizaremos todos nuestros conocimientos y estrategias para llevar a cabo la planeación, ejecución y monitoreo de su proyecto, utilizando el método Lean Construction o Construcción sin Pérdidas cumpliendo las metas deseadas.",
   },
   {
-    url: "#",
+    url: "/servicios",
     name: "LICENCIAS DE FUNCIONAMIENTO",
     img: "/svg/progress.svg",
     description:
       "Utilizaremos todos nuestros conocimientos y estrategias para llevar a cabo la planeación, ejecución y monitoreo de su proyecto, utilizando el método Lean Construction o Construcción sin Pérdidas cumpliendo las metas deseadas.",
   },
   {
-    url: "#",
+    url: "/servicios",
     name: "DECLARATORIA DE FÁBRICA",
     img: "/svg/declaration.svg",
     description:
