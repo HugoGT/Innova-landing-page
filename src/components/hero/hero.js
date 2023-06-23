@@ -1,7 +1,18 @@
 import React from "react";
 
 export function Hero() {
-  return <></>;
+  return (
+    <section className="h-[26rem] w-full flex flex-col items-center justify-evenly overflow-hidden sm:h-[32rem] lg:flex-row lg:justify-between bg-gradient-to-br from-p_green-200 to-sky-200">
+      <h1 className="my-auto p-6 text-3xl font-black text-center sm:text-5xl lg:text-6xl lg:mx-16 lg:text-left lg:max-w-screen-md">
+        INNOVA ARQUITECTOS Y ASOCIADOS
+      </h1>
+      <img
+        className="-m-4 max-h-80 lg:max-h-full lg:mt-auto xl:min-h-full"
+        src="images/arquitectos.png"
+        alt="innova arquitectos"
+      />
+    </section>
+  );
 }
 
 // <div className="flex flex-col gap-8 justify-around bg-gradient-to-b p-8 from-p_green-200/50 to-80% sm:flex-row sm:items-center">
