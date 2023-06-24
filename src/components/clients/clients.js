@@ -9,15 +9,15 @@ export const Clients = () => {
     "images/mifarma.png",
     "images/clinica_centenario.jpg",
     "images/financiera_efectiva.png",
-    "images/schorth_papelera.jpg",
+    // "images/schorth_papelera.jpg",
     "images/motocorp.png",
     "images/acnur.jpg",
-    "images/pacasmayo.jpg",
+    // "images/pacasmayo.jpg",
   ];
 
   return (
     <div id="clientes">
-      <h2 className="block text-2xl font-bold text-center py-4 md:text-4xl">
+      <h2 className="block text-2xl font-bold text-center pb-4 md:pb-8 md:text-4xl">
         Confían en Innova
       </h2>
       <Carousel images={images} />

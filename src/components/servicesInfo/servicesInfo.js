@@ -93,3 +93,17 @@ export function ServicesInfo() {
     </>
   );
 }
+
+{
+  /*
+<p>{description}</p>
+<details class="block text-center mt-8" close>
+<summary class="text-lg font-semibold leading-6 text-slate-900font-semibold select-none list-none">
+{name}
+</summary>
+<div class="mt-3 text-sm leading-6 text-slate-60">
+<p>{description}</p>
+</div>
+</details>
+*/
+}
