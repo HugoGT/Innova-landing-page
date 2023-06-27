@@ -3,32 +3,32 @@ import { Card } from "./card";
 
 const services = [
   {
-    url: "/servicios",
+    url: "/servicios/#diseño",
     name: "DISEÑO DE PROYECTOS",
     img: "/images/diseño.jpg",
   },
   {
-    url: "/servicios",
+    url: "/servicios/#gerencia",
     name: "GERENCIA DE PROYECTOS",
     img: "/images/gerencia.jpg",
   },
   {
-    url: "/servicios",
+    url: "/servicios/#indeci",
     name: "TRÁMITES DE INDECI",
     img: "/images/tramites.jpg",
   },
   {
-    url: "/servicios",
+    url: "/servicios/#construccion",
     name: "LICENCIAS DE CONSTRUCCIÓN",
     img: "/images/construccion.jpg",
   },
   {
-    url: "/servicios",
+    url: "/servicios/#funcionamiento",
     name: "LICENCIAS DE FUNCIONAMIENTO",
     img: "/images/indeci.jpg",
   },
   {
-    url: "/servicios",
+    url: "/servicios/#declaratoria",
     name: "DECLARATORIA DE FÁBRICA",
     img: "/images/fabrica.jpg",
   },
