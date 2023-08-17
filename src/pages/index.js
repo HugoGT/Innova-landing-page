@@ -9,7 +9,7 @@ import { Services } from "../components/services";
 const links = [
   { url: "#servicios", name: "Servicios" },
   { url: "#about", name: "Nosotros" },
-  { url: "#", name: "Contacto" },
+  { url: "/servicios/#contacto", name: "Contacto" },
   { url: "#clientes", name: "Confían en Innova" },
 ];
 

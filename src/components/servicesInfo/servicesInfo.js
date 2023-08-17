@@ -1,38 +1,5 @@
 import React from "react";
 
-const services = [
-  {
-    url: "/servicios",
-    name: "DISEÑO DE PROYECTOS",
-    img: "/images/diseño.jpg",
-  },
-  {
-    url: "/servicios",
-    name: "GERENCIA DE PROYECTOS",
-    img: "/images/gerencia.jpg",
-  },
-  {
-    url: "/servicios",
-    name: "TRÁMITES DE INDECI",
-    img: "/images/tramites.jpg",
-  },
-  {
-    url: "/servicios",
-    name: "LICENCIAS DE CONSTRUCCIÓN",
-    img: "/images/construccion.jpg",
-  },
-  {
-    url: "/servicios",
-    name: "LICENCIAS DE FUNCIONAMIENTO",
-    img: "/images/indeci.jpg",
-  },
-  {
-    url: "/servicios",
-    name: "DECLARATORIA DE FÁBRICA",
-    img: "/images/fabrica.jpg",
-  },
-];
-
 export function ServicesInfo() {
   return (
     <>
@@ -43,9 +10,11 @@ export function ServicesInfo() {
         </p>
         <div className="relative max-w-lg">
           <img src="/svg/investing.svg" alt="Agregando valor al proyecto" />
-          <button className="absolute bottom-0 left-4 bg-custom_blue-500/80 hover:bg-custom_blue-500 text-white font-bold py-2 px-4 rounded-lg md:py-3 md:px-6 md:text-xl">
-            Contáctanos
-          </button>
+          <a href="#contacto">
+            <button className="absolute bottom-0 left-4 bg-custom_blue-300 hover:bg-custom_blue-400 text-white font-bold py-2 px-4 rounded-lg md:py-3 md:px-6 md:text-xl">
+              Contáctanos
+            </button>
+          </a>
         </div>
       </div>
       <p className="pt-6 pb-2 text-2xl font-bold text-center md:text-4xl md:pt-10 md:pb-6">

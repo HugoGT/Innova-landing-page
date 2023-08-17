@@ -9,7 +9,11 @@ module.exports = {
           200: "#5ab8a0",
         },
         custom_blue: {
-          500: "#4fa8fb",
+          300: "#4fa8fb",
+          400: "#306fb7",
+          500: "#0f5da2",
+          600: "#1a558d",
+          700: "#103557",
         },
       },
       fontFamily: {
