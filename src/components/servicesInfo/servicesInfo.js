@@ -75,21 +75,16 @@ export function ServicesInfo() {
           <img
             className="object-cover md:h-[34rem]"
             src="/images/tramites.jpg"
-            alt="TRÁMITES DE INDECI"
+            alt="LICENCIAS DE CONSTRUCCIÓN"
           />
           <div className="p-4 text-center md:p-8">
             <p className="text-lg font-semibold pb-4 md:pb-8 lg:pb-4">
-              TRÁMITES DE INDECI
+              LICENCIAS DE CONSTRUCCIÓN
             </p>
             <p>
-              Diseñamos proyectos en conjunto para tus ambientes deseados,
-              planificando la estructura y criterios de éxito. Desarrollamos
-              varios diseños para elegir el mejor en la ejecución del proyecto.
-              Entregamos planos de arquitectura, seguridad, estructuras,
-              instalaciones eléctricas e instalaciones sanitarias, además de
-              memorias descriptivas, esquemas, detalles 3d y perspectivas que
-              sirven para llevar a cabo la edificación de cualquier
-              construcción.
+              Obtenemos todas las licencias y permisos necesarios para tu
+              proyecto. Aseguramos que tu construcción cumpla con las
+              regulaciones locales y se ejecute legalmente.
             </p>
           </div>
         </div>
@@ -100,17 +95,16 @@ export function ServicesInfo() {
           <img
             className="object-cover h-96 lg:h-full lg:w-1/2"
             src="/images/construccion.jpg"
-            alt="LICENCIAS DE CONSTRUCCIÓN"
+            alt="DECLARATORIA DE FABRICA Y HEREDEROS"
           />
           <div className="p-4 text-center md:p-8">
             <p className="text-lg font-semibold pb-4 md:pb-8 lg:pb-4">
-              LICENCIAS DE CONSTRUCCIÓN
+              DECLARATORIA DE FABRICA Y HEREDEROS
             </p>
             <p>
-              Utilizaremos todos nuestros conocimientos y estrategias para
-              llevar a cabo la planeación, ejecución y monitoreo de su proyecto,
-              utilizando el método Lean Construction o Construcción sin
-              Pérdidas, cumpliendo las metas deseadas.
+              Legalizamos edificaciones existentes y gestionamos asuntos de
+              herencia en propiedades. Garantizamos que tus propiedades cumplan
+              con las normativas legales y se transfieran adecuadamente.
             </p>
           </div>
         </div>
@@ -121,21 +115,17 @@ export function ServicesInfo() {
           <img
             className="object-cover lg:w-1/2"
             src="/images/indeci.jpg"
-            alt="LICENCIAS DE FUNCIONAMIENTO"
+            alt="TRÁMITES DE INDECI Y LICENCIAS DE FUNCIONAMIENTO"
           />
           <div className="p-4 text-center md:p-8">
             <p className="text-lg font-semibold pb-4 md:pb-8 lg:pb-4">
-              LICENCIAS DE FUNCIONAMIENTO
+              TRÁMITES DE INDECI Y LICENCIAS DE FUNCIONAMIENTO
             </p>
             <p>
-              Diseñamos proyectos en conjunto para tus ambientes deseados,
-              planificando la estructura y criterios de éxito. Desarrollamos
-              varios diseños para elegir el mejor en la ejecución del proyecto.
-              Entregamos planos de arquitectura, seguridad, estructuras,
-              instalaciones eléctricas e instalaciones sanitarias, además de
-              memorias descriptivas, esquemas, detalles 3d y perspectivas que
-              sirven para llevar a cabo la edificación de cualquier
-              construcción.
+              Gestionamos los trámites ante el INDECI y obtenemos las licencias
+              de funcionamiento necesarias. Aseguramos que tu construcción
+              cumpla con los requisitos de seguridad y regulaciones para su
+              funcionamiento.
             </p>
           </div>
         </div>
@@ -144,20 +134,18 @@ export function ServicesInfo() {
             id="declaratoria"
             className="object-cover lg:w-1/2"
             src="/images/fabrica.jpg"
-            alt="DECLARATORIA DE FÁBRICA"
+            alt="RECTIFICACIÓN DE LINDEROS"
           />
           <div className="p-4 text-center md:p-8">
             <p className="text-lg font-semibold pb-4 md:pb-8 lg:pb-4">
-              DECLARATORIA DE FÁBRICA
+              RECTIFICACIÓN DE LINDEROS
             </p>
             <p>
-              Inscribimos tu construcción con el lote en el Registro de Predios
-              correspondiente, consignando las características y condiciones
-              técnicas de la obra. Al inscribir la declaratoria de fábrica de tu
-              predio, le damos el carácter legal a lo construido, facilitando la
-              transferencia del mismo además de revalorizarlo. Asimismo, la
-              inscripción de la declaratoria de fábrica permite, en caso se
-              trate de departamentos, la independización de los mismos.
+              Legalizamos tu construcción en el Registro de Predios
+              correspondiente. Añadimos valor a tu propiedad al inscribir la
+              declaratoria de fábrica y facilitar su transferencia.
+              Posibilitamos la independización de departamentos en caso de ser
+              necesario.
             </p>
           </div>
         </div>

@@ -4,15 +4,15 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 export function Header({ main, links }) {
   return (
-    <header className="py-3 px-6 bg-neutral-200 flex justify-between items-center">
-      <a href={main} className="h-12 px-2 mt-1">
+    <header className="py-3 px-6 bg-gray-200 flex justify-between items-center">
+      <a href={main} className="h-12 px-2 mt-1 ml-2">
         <img
           src="/images/innova-logo.png"
           alt="logo innova arquitectos"
           className="h-full"
         />
       </a>
-      <ul className="hidden sm:flex gap-6">
+      <ul className="hidden sm:flex gap-6 mr-4">
         {links.map((link) => (
           <NavLink key={link.url} {...link} />
         ))}
