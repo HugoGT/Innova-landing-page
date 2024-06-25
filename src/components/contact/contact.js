@@ -70,11 +70,11 @@ export function Contact() {
             </p>
             <br />
             <p>
-              <b>Teléfono:</b> (01)777-7777
+              <b>Teléfono:</b> (01) 5012577
             </p>
             <br />
             <p>
-              <b>Celular:</b> 939135303
+              <b>Celular:</b> 970608178
             </p>
           </div>
         </div>
