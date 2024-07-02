@@ -15,7 +15,7 @@ const links = [
 
 export default function index() {
   return (
-    <Layout title="Innova Arquitectos">
+    <Layout title="INNOVA ARQUITECTOS Y ASOCIADOS SAC">
       <Header main={"#servicios"} links={links} />
       <Hero />
       <Services />
